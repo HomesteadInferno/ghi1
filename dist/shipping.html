@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Доставка та оплата | Gapka’s Homestead Inferno</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .info-page { max-width: 900px; margin: 60px auto; padding: 0 20px; color: #ccc; }
+        .info-page h1 { font-family: 'Oswald', sans-serif; color: var(--primary-orange); text-transform: uppercase; border-bottom: 2px solid #33251e; padding-bottom: 15px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
+        .info-card { background: rgba(255,255,255,0.03); padding: 30px; border-radius: 8px; border: 1px solid rgba(255,69,0,0.1); }
+        .info-card h2 { font-family: 'Oswald', sans-serif; color: #fff; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        .info-card ul { list-style: none; padding: 0; }
+        .info-card li { margin-bottom: 15px; padding-left: 20px; position: relative; font-size: 15px; }
+        .info-card li::before { content: "•"; color: var(--primary-orange); position: absolute; left: 0; }
+        .law-note { margin-top: 40px; padding: 20px; background: rgba(0,0,0,0.3); border-left: 4px solid #555; font-size: 13px; line-height: 1.6; }
+        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body class="bg-dark">
+
+    <main class="info-page">
+        <h1>Доставка та оплата</h1>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h2>💳 Оплата</h2>
+                <ul>
+                    <li><strong>Безготівковий розрахунок (IBAN):</strong> Після підтвердження замовлення ми надішлемо вам реквізити для оплати на рахунок ФОП. Це найбезпечніший спосіб згідно із законодавством України.</li>
+                    <li><strong>Післяплата (Накладений платіж):</strong> Оплата при отриманні у відділенні Нової Пошти. <em>(Зверніть увагу: перевізник бере комісію 20 грн + 2% від суми)</em>.</li>
+                    <li><strong>Онлайн-оплата:</strong> Незабаром з'явиться можливість оплати через Apple Pay / Google Pay.</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h2>📦 Доставка</h2>
+                <ul>
+                    <li><strong>Нова Пошта:</strong> До відділення, поштомату або кур'єром. Відправка протягом 1-3 робочих днів.</li>
+                    <li><strong>Укрпошта:</strong> Доступно тільки для замовлень, що містять виключно насіння (рекомендованим листом або посилкою).</li>
+                    <li><strong>Самовивіз:</strong> Наразі відсутній, ми працюємо виключно як онлайн-ферма.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="law-note">
+            <p><strong>Юридична інформація:</strong> Всі розрахунки здійснюються виключно у національній валюті України — гривні. Згідно з Постановою КМУ №172, продовольчі товари та насіння належної якості не підлягають обміну або поверненню. Після оплати ми надішлемо вам підтвердження замовлення у Telegram/Email. Ваша історія листування та квитанція про оплату є гарантією нашої відповідальності.</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 50px;">
+            <a href="index.html" style="color: var(--primary-orange); text-decoration: none; font-weight: bold; text-transform: uppercase;">← Повернутися до крамниці</a>
+        </p>
+    </main>
+<footer>
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <img src="homesteadlogo.svg" alt="Homestead Logo" class="footer-logo-img">
+            <p class="footer-tagline">Справжня гострота вирощується тут. <br>Від насіння до вогняних соусів.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Клієнтам</h4>
+            <div class="footer-links">
+                <a href="blog.html">🗞 Нотатки Gapka's Homestead Inferno</a>
+                <a href="faq.html">Питання та відповіді (FAQ)</a> 
+                <a href="shipping.html">Доставка та оплата</a>
+            </div>
+        </div>
+ 
+        <div class="footer-section">
+            <h4>Зв'язок</h4>
+            <div class="footer-contacts">
+                <span>+00000000000</span>
+                <a href="mailto:homestead.inferno@gmail.com">homestead.inferno@gmail.com</a>
+                <div class="footer-socials">
+                   </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Інфо</h4>
+            <div class="footer-pp">
+                <a href="privacy.html">Конфіденційність</a>
+                <a href="terms.html">Публічна оферта</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="text-align: center; margin-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 20px;">
+        <p style="font-size: 14px; opacity: 0.8; font-style: italic;">
+            Свіжий випуск: <a href="blog.html" style="color: var(--accent-orange); text-decoration: underline;">Як виростити сильні рослини з насіння без нервів та переживань. Читайте пізнавальні статті ТУТ.</a>
+        </p>
+    </div>
+
+    <div class="footer-bottom container">
+        <p>&copy; 2026 Gapka`s Homestead Inferno. Обережно, викликає залежність від гострого. 🔥</p>
+    </div>
+</footer>
+</body>
+</html>
